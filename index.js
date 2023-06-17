@@ -5,7 +5,7 @@ const config = require("./config.json");
 const plog = require("log-beautify");
 
 const client = new Discord.Client({
-  shards: "auto",
+  //shards: "auto",
   checkUpdate: false,
   syncStatus: true,
   rejectOnRateLimit: ["/channels"],
